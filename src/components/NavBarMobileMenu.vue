@@ -7,7 +7,7 @@
     navlinks: {
       type: Object,
       default() {
-        return []
+        return {}
       },
     },
     currentPath: {
