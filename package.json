@@ -2,11 +2,11 @@
   "name": "pg-vue-primevue-tailwindcss",
   "version": "0.0.0",
   "homepage": "https://pg-vue-primevue-tailwindcss.netlify.app",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/pinegrow/pg-vue-primevue-tailwindcss.git"
   },
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "now": "npm run build && npm run preview",
@@ -33,9 +33,9 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.272",
-    "@pinegrow/primevue-plugin": "^3.0.2",
-    "@pinegrow/tailwindcss-plugin": "^3.0.32",
-    "@pinegrow/vite-plugin": "^3.0.60",
+    "@pinegrow/primevue-plugin": "^3.0.4",
+    "@pinegrow/tailwindcss-plugin": "^3.0.33",
+    "@pinegrow/vite-plugin": "^3.0.65",
     "@primevue/auto-import-resolver": "^4.2.2",
     "@rushstack/eslint-patch": "^1.10.4",
     "@tailwindcss/forms": "^0.5.9",
