@@ -33,9 +33,9 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.272",
-    "@pinegrow/primevue-plugin": "^3.0.4",
-    "@pinegrow/tailwindcss-plugin": "^3.0.33",
-    "@pinegrow/vite-plugin": "^3.0.65",
+    "@pinegrow/primevue-plugin": "^3.0.6",
+    "@pinegrow/tailwindcss-plugin": "^3.0.35",
+    "@pinegrow/vite-plugin": "^3.0.68",
     "@primevue/auto-import-resolver": "^4.2.2",
     "@rushstack/eslint-patch": "^1.10.4",
     "@tailwindcss/forms": "^0.5.9",
