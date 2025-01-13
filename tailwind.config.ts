@@ -4,17 +4,23 @@ import {
   pg_backgrounds,
 } from './themes/pg-tailwindcss/tokens.mjs'
 
+import { getFontsWithFallback } from './src/utils/font'
 import { safelist } from './src/utils/colors'
+
+import tailwindPrimeUi from 'tailwindcss-primeui'
+import tailwindTypography from '@tailwindcss/typography'
+import tailwindForms from '@tailwindcss/forms'
+import tailwindCssPluginPinegrow from '@pinegrow/tailwindcss-plugin'
 
 export default {
   darkMode: 'class',
   plugins: [
-    require('tailwindcss-primeui'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@pinegrow/tailwindcss-plugin').default({
+    tailwindPrimeUi,
+    tailwindTypography,
+    tailwindForms,
+    tailwindCssPluginPinegrow({
       colors: pg_colors, // primary, secondary etc
-      fonts: pg_fonts,
+      fonts: getFontsWithFallback(pg_fonts),
       backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large
     }),
   ],
